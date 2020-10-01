@@ -1,0 +1,1583 @@
+<p><span style="font-size:36px;"><span style="font-family:georgia,serif;"><span style="font-size:72px;">University of California San Diego</span> </span></span></p>
+
+<p><span style="font-size:36px;"><span style="font-family:georgia,serif;">Bioengineering PFBH&nbsp;(EBU3A)</span></span></p>
+
+<p><img alt="" src="https://i.postimg.cc/N04KsfZm/Screen-Shot-2018-11-21-at-11-05-17-AM.png" style="height: 100%; width: 100%;" /></p>
+
+<p class="rtecenter"><span style="font-size:11px;"><em><span style="font-family:arial,helvetica,sans-serif;">"To improve health and quality of life by applying engineering principles to scientific discovery and technology innovation, and to train future leaders in Bioengineering through inspiring education and dedicated mentorship."</span></em></span></p>
+
+<p class="rtejustify"><em><span style="font-family:arial,helvetica,sans-serif;">Bioengineering, one of the youngest engineering disciplines, employs the principles and tools of engineering to analyze and solve biological and medical problems. It is broad in its spectrum, with its foundation in all of the traditional engineering sciences, as well as biology, physiology and other biomedical sciences. UC San Diego is at the forefront of bioengineering. In recognition of the unique features and requirements of bioengineering and the excellence of the Bioengineering faculty and programs, the University of California established a Department of Bioengineering in August 1994. In 1995, the National Research Council of the National Academy of Science, National Academy of Engineering and the Institute of Medicine published a comprehensive report in which they ranked the UCSD Bioengineering graduate program number 1 in the nation for effectiveness in teaching and number 2 for scholarly quality. It remains the #1 ranked Bioengineering doctoral program according to the most recent National Research Council study (2010). The 2015 U.S News &amp; World Report ranked our graduate program #2 and our undergraduate program #7 in the nation. At UCSD, the cooperative arrangement between the Schools of Engineering and Medicine is the foundation of this success by providing an ideal research and training environment that leads to effective collaborations between engineers and medical scientists. We broadly categorize our research interests to embrace three pillars of bioengineering: multiscale bioengineering, tissue engineering and regenerative medicine, and systems biology and medicine. With established and promising up-and-coming core faculty, our department has four disease focus areas including cancer, cardiovascular diseases, metabolic disorders, and neurodegenerative diseases.</span></em></p>
+
+<p class="rtejustify">&nbsp;</p>
+<script>
+jQuery(function(){
+jQuery('.year').click(function(){
+    //jQuery('.decade_container').not(jQuery(this).closest('.decade_container')).hide();
+    //jQuery('.decade_container').css('width','100%');
+    jQuery(this).closest('.year_container').find('.events_container').slideToggle();
+});
+
+jQuery('.expand_all').click(function(e){
+    e.preventDefault();
+    jQuery('.events_container').slideDown();
+});
+
+jQuery('.close_all').click(function(e){
+    e.preventDefault();
+    jQuery('.events_container').slideUp();
+});
+});
+</script>
+<style type="text/css">.timeline_container {
+        width: 100%;
+    }
+    
+    .timeline {
+        font-family: Lato;
+        width: 100%;
+    }
+    .events_container {
+        display:none;    
+    }
+    .events_container img {
+        max-width: 200px;
+    }
+    .decade_container {
+        width: 15%;
+        float: left;
+    }
+    .year_container {
+        width: 100%;
+        float: left;
+    }
+    
+    .year {
+        color: #3498db;
+        font-size:2em;
+        font-weight: 900;
+        padding: 10px 15px;
+        display: block;
+        cursor:pointer;
+    }
+    
+    .timeline .img-responsive {
+        padding-bottom: 5px;
+        width:100%;
+    }
+    
+    .events_container {
+        color: #7f8c8d;
+        padding: 10px 15px;
+    }
+    
+    
+    .year {
+        color:#FFF;
+    }
+    .decade {
+        margin-bottom:0;
+        text-align:center;
+        font-size:1.5em;    
+        font-weight:400;
+        padding-bottom:5px;
+    }
+    
+    .decade_container:nth-child(1) .decade {
+        border-bottom:2px solid #E54100;    
+    }
+    .decade_container:nth-child(2) .decade {
+        border-bottom:2px solid #00A66D;    
+    }
+    .decade_container:nth-child(3) .decade {
+        border-bottom:2px solid #E5A500;    
+    }
+    .decade_container:nth-child(4) .decade {
+        border-bottom:2px solid #05353D;    
+    }
+    .decade_container:nth-child(5) .decade {
+        border-bottom:2px solid #0F0404;    
+    }
+    .decade_container:nth-child(6) .decade {
+        border-bottom:2px solid #1A0B1C;    
+    }
+    
+    /*
+    .decade_container:nth-child(6n+1) .year {
+        background-color:#FB6A31;
+    }
+    .decade_container:nth-child(6n+2) .year {
+        background-color:#92BEAF;
+    }
+    
+    .decade_container:nth-child(6n+3) .year {
+        background-color:#FFCC56;
+    }
+    
+    .decade_container:nth-child(6n+4) .year {
+        background-color:#0D4B56;
+    }
+    
+    .decade_container:nth-child(6n+5) .year {
+        background-color:#424242;
+    }
+    .decade_container:nth-child(6n+6) .year {
+        background-color:#312C42;
+    }
+    */
+    
+    .decade_container:nth-child(1) .year_container:nth-child(1) .year {background-color:#FB4700}
+    .decade_container:nth-child(1) .year_container:nth-child(2) .year {background-color:#FB5514}
+    .decade_container:nth-child(1) .year_container:nth-child(3) .year {background-color:#FB6428}
+    .decade_container:nth-child(1) .year_container:nth-child(4) .year {background-color:#FB723C}
+    .decade_container:nth-child(1) .year_container:nth-child(5) .year {background-color:#FB8050}
+    .decade_container:nth-child(1) .year_container:nth-child(6) .year {background-color:#FB8F64}
+    .decade_container:nth-child(1) .year_container:nth-child(7) .year {background-color:#FB9D78}
+    .decade_container:nth-child(1) .year_container:nth-child(8) .year {background-color:#FBAC8D}
+    .decade_container:nth-child(1) .year_container:nth-child(9) .year {background-color:#FBBAA1}
+    .decade_container:nth-child(1) .year_container:nth-child(10) .year {background-color:#FBC9B5}
+    
+    .decade_container:nth-child(2) .year_container:nth-child(1) .year {background-color:#00BE7D}
+    .decade_container:nth-child(2) .year_container:nth-child(2) .year {background-color:#0FBE82}
+    .decade_container:nth-child(2) .year_container:nth-child(3) .year {background-color:#1EBE88}
+    .decade_container:nth-child(2) .year_container:nth-child(4) .year {background-color:#2EBE8D}
+    .decade_container:nth-child(2) .year_container:nth-child(5) .year {background-color:#3DBE92}
+    .decade_container:nth-child(2) .year_container:nth-child(6) .year {background-color:#4CBE97}
+    .decade_container:nth-child(2) .year_container:nth-child(7) .year {background-color:#5BBE9C}
+    .decade_container:nth-child(2) .year_container:nth-child(8) .year {background-color:#6ABEA1}
+    .decade_container:nth-child(2) .year_container:nth-child(9) .year {background-color:#7ABEA7}
+    .decade_container:nth-child(2) .year_container:nth-child(10) .year {background-color:#89BEAC}
+    
+    .decade_container:nth-child(3) .year_container:nth-child(1) .year {background-color:#FFB700}
+    .decade_container:nth-child(3) .year_container:nth-child(2) .year {background-color:#FFBD14}
+    .decade_container:nth-child(3) .year_container:nth-child(3) .year {background-color:#FFC229}
+    .decade_container:nth-child(3) .year_container:nth-child(4) .year {background-color:#FFC83D}
+    .decade_container:nth-child(3) .year_container:nth-child(5) .year {background-color:#FFCE52}
+    .decade_container:nth-child(3) .year_container:nth-child(6) .year {background-color:#FFD466}
+    .decade_container:nth-child(3) .year_container:nth-child(7) .year {background-color:#FFD97A}
+    .decade_container:nth-child(3) .year_container:nth-child(8) .year {background-color:#FFDF8F}
+    .decade_container:nth-child(3) .year_container:nth-child(9) .year {background-color:#F2DA9B}
+    .decade_container:nth-child(3) .year_container:nth-child(10) .year {background-color:#E5D3A5}
+    
+    .decade_container:nth-child(4) .year_container:nth-child(1) .year {background-color:#004956}
+    .decade_container:nth-child(4) .year_container:nth-child(2) .year {background-color:#074A56}
+    .decade_container:nth-child(4) .year_container:nth-child(3) .year {background-color:#0E4B56}
+    .decade_container:nth-child(4) .year_container:nth-child(4) .year {background-color:#154C56}
+    .decade_container:nth-child(4) .year_container:nth-child(5) .year {background-color:#1C4D56}
+    .decade_container:nth-child(4) .year_container:nth-child(6) .year {background-color:#224E56}
+    .decade_container:nth-child(4) .year_container:nth-child(7) .year {background-color:#294F56}
+    .decade_container:nth-child(4) .year_container:nth-child(8) .year {background-color:#305056}
+    .decade_container:nth-child(4) .year_container:nth-child(9) .year {background-color:#375156}
+    .decade_container:nth-child(4) .year_container:nth-child(10) .year {background-color:#3E5256}
+    
+    .decade_container:nth-child(5) .year_container:nth-child(1) .year {background-color:#420D0D}
+    .decade_container:nth-child(5) .year_container:nth-child(2) .year {background-color:#421212}
+    .decade_container:nth-child(5) .year_container:nth-child(3) .year {background-color:#421818}
+    .decade_container:nth-child(5) .year_container:nth-child(4) .year {background-color:#421D1D}
+    .decade_container:nth-child(5) .year_container:nth-child(5) .year {background-color:#422222}
+    .decade_container:nth-child(5) .year_container:nth-child(6) .year {background-color:#422828}
+    .decade_container:nth-child(5) .year_container:nth-child(7) .year {background-color:#422D2D}
+    .decade_container:nth-child(5) .year_container:nth-child(8) .year {background-color:#423232}
+    .decade_container:nth-child(5) .year_container:nth-child(9) .year {background-color:#423737}
+    .decade_container:nth-child(5) .year_container:nth-child(10) .year {background-color:#423D3D}
+    
+    .decade_container:nth-child(6) .year_container:nth-child(1) .year {background-color:#3D1A42}
+    .decade_container:nth-child(6) .year_container:nth-child(2) .year {background-color:#491F4F}
+    .decade_container:nth-child(6) .year_container:nth-child(3) .year {background-color:#55245C}
+    .decade_container:nth-child(6) .year_container:nth-child(4) .year {background-color:#612969}
+    .decade_container:nth-child(6) .year_container:nth-child(5) .year {background-color:#6D2E75}
+    .decade_container:nth-child(6) .year_container:nth-child(6) .year {background-color:#793382}
+    .decade_container:nth-child(6) .year_container:nth-child(7) .year {background-color:#412D42}
+    .decade_container:nth-child(6) .year_container:nth-child(8) .year {background-color:#413242}
+    .decade_container:nth-child(6) .year_container:nth-child(9) .year {background-color:#413742}
+    .decade_container:nth-child(6) .year_container:nth-child(10) .year {background-color:#423D42}
+    /*
+    .year_container:nth-child(5n+1) .events_container {
+        border-top: 15px solid #fb6a31;
+    }
+    
+    .year_container:nth-child(5n+2) .events_container {
+        border-top: 15px solid #92beaf;
+    }
+    
+    .year_container:nth-child(5n+3) .events_container {
+        border-top: 15px solid #ffcc56;
+    }
+    
+    .year_container:nth-child(5n+4) .events_container {
+        border-top: 15px solid #0d4b56;
+    }
+    
+    .year_container:nth-child(5n+5) .events_container {
+        border-top: 15px solid #424242;
+    }
+    */
+</style>
+<div class="container">
+<p><span style="font-family:georgia,serif;"><span style="font-size:36px;">Bioengineering Time Line&nbsp;</span></span></p>
+
+<div class="btn-group" role="group"><button class="btn btn-default expand_all" type="button">Expand All</button><button class="btn btn-default close_all" type="button">Close All</button></div>
+
+<div class="timeline">
+<div class="decade_container">
+<h3 class="decade" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(229, 65, 0);">2010s</h3>
+
+<div class="year_container"><span class="year" style="background-color: rgb(251, 85, 20);">2019</span>
+
+<div class="events_container">&nbsp;</div>
+</div>
+
+<div class="year_container"><span class="year" style="background-color: rgb(251, 100, 40);">2018</span>
+
+<div class="events_container">&nbsp;</div>
+</div>
+
+<div class="year_container"><span class="year" style="background-color: rgb(251, 114, 60);">2017</span>
+
+<div class="events_container">&nbsp;</div>
+</div>
+
+<div class="year_container"><span class="year">2016</span>
+
+<div class="events_container">
+<p>Identification of three metabolic phenotypes in red cells during cold storage<br />
+Bordbar, A., Palsson, B. 0., et al</p>
+
+<hr />
+<p>Identification of therapeutic targets for glioblastoma by network analysis (a systems level cure for gliblastoma?)<br />
+Friedman-Morvinski, Bhargava, Gupta, Verma, Su bramaniam</p>
+
+<hr />
+<p>Poly(ethylene glycol) hydrogels with cell cleavable groups for autonomous cell delivery<br />
+Kar, M., Vernon Shih, Y. R., Velez, D. 0., Cabrales, P., Varghese, S.</p>
+
+<hr />
+<p>Increases in core temperature counterbalance effects of haemoconcentration on blood viscosity during prolonged exercise in the heat<br />
+Buono, M. J., Krippes, T., Kolkhorst, F. W., Williams, A. T., Cabrales, P.</p>
+
+<hr />
+<p>Inflammatory response to implantation of transparent nanocrystalline yttria­stabilized zirconia using a dorsal window chamber model<br />
+Damestani, Y., Galan-Hoffman, D. E., Ortiz, D., Cabrales, P., Aguilar, G.</p>
+
+<hr /></div>
+</div>
+
+<div class="year_container"><span class="year">2015</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2015mcveigh.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Elliot McVeigh</p>
+
+<hr /> <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2015wheeler.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Bruce Wheeler</p>
+
+<hr />
+<p>Initiation of clinical trial with regenerative hydrogel in myocardial infarction patients<br />
+Dr. Karen Christman</p>
+
+<hr />
+<p>Perfusion pressure and blood flow determine microvascular apparent viscosity.<br />
+Yalcin 0, Ortiz D, Williams AT, Johnson PC, and Cabrales P.</p>
+
+<hr />
+<p>Endothelin receptor B, a candidate gene from human studies at high altitude, improves cardiac tolerance to hypoxia in genetically engineered heterozygote mice<br />
+Stobdan T, Ao-leong E, Ortiz D, McCulloch AD, Bafna V, Cabrales P, and Haddad GG.</p>
+
+<hr />
+<p>Supra-plasma expanders: treating blood loss and anemia without red b lood cell transfusions<br />
+Tsai, A. G., Salazar Vazquez, B. Y., Hofmann, A., Acharya, S. A., lntaglietta, M.</p>
+
+<hr />
+<p>Model driven discovery of underground metabolism<br />
+Guzman, G., Palsson, B.0. , et al</p>
+
+<hr />
+<p>Cell type-restricted expression of E-Tmod41 and its localization to the dendrilic spine of horizontal cells in the reli na<br />
+Yao, W., Chu, X., Sung, L. A.</p>
+
+<hr />
+<p>The first high-resolution dry-electrode mobile brain-computer interface for real­lime neuroimaging and cognitive monitoring<br />
+Mullen, T. R., Kothe, C. A. E., Chi, Y. M., Ojeda, A., Kerth, T., Makeig, S., Jung, T-P, Cauwenberghs, G.</p>
+
+<hr />
+<p>Half a unit bood trasnfusion Is better than two units<br />
+lntaglietta, M.</p>
+
+<hr />
+<p>Definition of the minimal proteome<br />
+Yang, L., Palsson, B.0. , et al</p>
+
+<hr />
+<p>Systems vaccinology (the first multi-year multi-omics study of human response to influenza vaccine - highlight in Press as an important study for vaccination of the elderly)<br />
+Nakaya, Hagan, ...... Subramaniam, Pulendran</p>
+
+<hr />
+<p>Biomarkers of NAFLD progression (the first serum biomarkers to discriminate liver pathologies)<br />
+Gorden, ..... Subramaniam, Brown</p>
+
+<hr />
+<p>Control of overweight and obesity in childhood through education in meal time habits. The ·good manners for a healthy future· programme<br />
+Salazar Vazquez BY, Salazar Vazquez MA, Lopez Gutierrez G, Acosta Rosales K, Cabrales P, Vadillo-Ortega F, lntaglietta M, Perez Tamayo R, Schmid-Schonbein GW.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2014</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2014fraley.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Stephanie Fraley</p>
+
+<hr /> <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2014mali.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Prashant Mali</p>
+
+<hr />
+<p>Localized increase of tissue oxygen tension by magnetic targeted drug delivery.<br />
+Uong C, Ortiz D, Ao-ieong E, Navati MS, Friedman JM, and Cabrales P.</p>
+
+<hr />
+<p>Resuscitation from hemorrhagic shock using polymerized hemoglobin compared to blood<br />
+Ortiz D, Barros M, Yan S, and Cabrales P.</p>
+
+<hr />
+<p>Microvascular shunts and hematocrit dispersion in microvascular f low<br />
+Sriram, K., Tartakovsky, D. M., Fagrell, B., lntaglietta, M.</p>
+
+<hr />
+<p>Regulation of endothelial response to disturbed flow by epigenetic factor (DNA methylation)<br />
+Zhou J., Li, Y. S., Wang, K. C., Chien, S.</p>
+
+<hr />
+<p>Treating pediatric obesity with technology assisted behavioral training<br />
+Salazar Vazquez, B. Y., Salazar Vazquez, M. A,. Cabrales, P., Perez Tamayo, R., lntaglietta, M., Schmid-Schtinbein, G. W.</p>
+
+<hr />
+<p>Establishment of the sigma factor network in E. coli<br />
+Cho, Palsson, 8.0. , et al</p>
+
+<hr />
+<p>Network definition of minimal pathway structure that is consistent with biomolecular interactions<br />
+Bordbar, A., Palsson, 8.0. , et al</p>
+
+<hr />
+<p>Information theoretic approach to complex biological network reconstruction<br />
+Farangmehr, Maurya, Tartakovsky, Subramaniam</p>
+
+<hr />
+<p>Time varying causal inference in macrophage cells<br />
+Masnardi-Shirazi, Maurya, Subramaniam</p>
+
+<hr />
+<p>Statistical insights into major human muscle diseases<br />
+Gupta, Kim, Wang, Dinasarapu, Subramaniam</p>
+
+<hr />
+<p>Hemodynamics and tissue oxygenation after hemodilution with ultrahigh molecular weight polymerized albumin<br />
+Castro C, Ortiz D, Palmer AF, and Cabrales P.</p>
+
+<hr />
+<p>Microhemodynamic parameters quantification from intravital microscopy videos.<br />
+Ortiz D, Briceno JC, and Cabrales P.</p>
+
+<hr /></div>
+</div>
+
+<div class="year_container"><span class="year">2013</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/1979schmid.jpg" />
+<p>&nbsp;</p>
+
+<p>5th Bioengineering Chair<br />
+Dr. Geert Schmid-Schtinbein</p>
+
+<hr />
+<p>14th UC System-Wide Bioengineering Symposium</p>
+
+<hr />
+<p>NAVBO Vasculata Meeting</p>
+
+<hr />
+<p>Transport of nitric oxide by perfluorocarbon emulsion<br />
+Ortiz D, Cabrales P, and Briceno JC.</p>
+
+<hr />
+<p>Cerebral tissue oxygenation impairment during experimental cerebral malaria.<br />
+Cabrales P, Martins YC, Ong PK, Zanini GM, Frangos JA, and Carvalho lJ.</p>
+
+<hr />
+<p>Microhemodynamic aberrations created by transfusion of stored blood<br />
+Yalcin 0, Ortiz D, Tsai AG, Johnson PC, and Cabrales P.</p>
+
+<hr />
+<p>Demonstration that acute insulin resistance is due to proteol ytic cleavage of the insulin receptor by digestive enzymes<br />
+Delano, F. A, Schmid-Schtinbein, G. W.</p>
+
+<hr />
+<p>Multi-strain reconstructions predict colonization sites and auxotrophy<br />
+Monk, J., Palsson, B.0., et al</p>
+
+<hr />
+<p>Tattoo Electronics<br />
+Coleman, T.</p>
+
+<hr />
+<p>Preclinical evidence that multiorgan failure in shock is due to autodigestion<br />
+Delano, F. A., Hoyt, D. B., Schmid-Schtinbein, G. W.</p>
+
+<hr />
+<p>Genome-scale analysis of the enzyme promiscuity<br />
+Nam, Palsson, B.0. , et al</p>
+
+<hr />
+<p>Computation of temperature dependency of E. coli growth<br />
+Chang, Palsson, B.0. , et al</p>
+
+<hr />
+<p>Community structure analysis of gene interaction networks in Duchenne muscular dystrophy (hailed by an anonymous reviewer as a hall mark paper)<br />
+Narayanan, Subramaniam</p>
+
+<hr />
+<p>A combined "Omics" study of macrophages (the first study that integrated transcriptomics, regulatory genomics and lipidomics in a mammalian cell)<br />
+Dinasarapu, Gupta, Maurya, Fahy, Min, Sud, Gersten, Glass, Subramaniam</p>
+
+<hr />
+<p>The first Complement Database<br />
+Yang, Dinasarapu, Reis, DeAngelis, Ricklin, Subramaniam, lambris</p>
+
+<hr />
+<p>Quantitative transcriptomics using designed primer-based amplification (the first RNA seq method that maps over 90o/o of the mammalian transcriptome with only 50 picograms of RNA)<br />
+Bhargava, Ko, Will ems, Mercola and Subramaniam</p>
+
+<hr /></div>
+</div>
+
+<div class="year_container"><span class="year">2012</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2012wang.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Peter Wang</p>
+
+<hr /> <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2012zhong.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Sheng Zhong</p>
+
+<hr />
+<p>Center for Multiscale Imaging of Living Systems Kickoff Symposium</p>
+
+<hr />
+<p>NIAMS Training Grant, Predoctoral Training in Translational Musculoskeletal Research</p>
+
+<hr />
+<p>Establishment of the "Biosystems Major" for Bioengineering UG Degree<br />
+Or. Shankar Subramaniam and the Department</p>
+
+<hr />
+<p>Evolution of bioengineering at UC San Diego<br />
+Or. Shankar Subramaniam</p>
+
+<hr />
+<p>Functional coherence of molecular networks<br />
+Book Eds. Koyuturk, Grama, Subramaniam, S.</p>
+
+<hr />
+<p>NIH Common Funds Metabolomics Data Repository and Coordination<br />
+Grant Subramaniam, S.</p>
+
+<hr />
+<p>Functional classification of skeletal muscle networks I and II (the first complete molecular skeletal muscle networks)<br />
+Wang, Winters, Subramaniam, S.</p>
+
+<hr />
+<p>PEG-Albumin supra plasma expansion increases wall shear stress and expression of MCP-1<br />
+Hightower, C. M., Salazar Vazquez, B. Y., Acharya, S. A., Subramanian, S., lntaglietta, M.</p>
+
+<hr />
+<p>Genome-scale analysis of the enzyme promiscuity<br />
+Nam, Palsson, 8.0. , et al</p>
+
+<hr />
+<p>Neuromorphic silicon integrated circuit exceeds the nominal energy efficiency of synaptic transmission in the mammalian brain (1fJ of energy per synaptic operation)<br />
+Karakiewicz, R., Genov, R., Cauwenberghs, G.</p>
+
+<hr />
+<p>Supra plasma expansion due to restoration of viscosity shear thinning<br />
+Sriram, K., Tsai, A. G., Cabrales, P., Acharya, S. A., Tartakovsky, 0. M., lntaglietta, M.</p>
+
+<hr />
+<p>Integrated models of metabolism and full marcomolecular synthesis established<br />
+Lerman, J., Palsson, B.0. , et al</p>
+
+<hr />
+<p>Stochastic operator-splitting method for reaction diffusion systems<br />
+Choi, Maurya, Tartakovsky, Subramaniam, S.</p>
+
+<hr />
+<p>Gene expression measurements: variance modeling considerations<br />
+Subramaniam, S., Hsiao</p>
+
+<hr />
+<p>Small-volume resuscitation from hemorrhagic shock with polymerized human serum al bu min<br />
+Messmer C, Yalcin 0, Palmer AF, and Cabrales P.</p>
+
+<hr /></div>
+</div>
+
+<div class="year_container"><span class="year">2011</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2011metallo.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Christian Metallo</p>
+
+<hr /> <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/2011coleman.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Todd Coleman</p>
+
+<hr />
+<p>Renewal of the NIH Bioinformatics Training Grant<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>International Research-intensive Center of Excellence (I-RICE) IEM &amp; University Systems of Taiwan</p>
+
+<hr />
+<p>Bioinformatics and systems biology of the lipidome (the first comprehensive review on the lipidome)<br />
+Subramaniam, S. and laboratory</p>
+
+<hr />
+<p>3D nano-mechanics of the erythrocyte membrane skeletal network when helical actin protofilaments are wrapped around by Intertwined al3 spectrins<br />
+Sche, P., Vera, C., Sung, L.A.</p>
+
+<hr />
+<p>Autodigestion and receptor cleavage as cause of cell dysfunction in diabetes and hypertension<br />
+Delano, F. A., Chen, A. Y., Wu, K-1 S., Tran, E. D., Rodrigues, S. F., Schmid­Schonbein, G. w.</p>
+
+<hr />
+<p>Single RNAP mutations shown to reprogram the transcriptional regulatoy network in E. coli<br />
+Conrad, Palsson, B.0. , et al</p>
+
+<hr />
+<p>How red blood cells may die: Shear and Ca2+ induced RGD externalization from ankyrin triggers aVl33 integrtn-mediated erythrophagocytosis<br />
+Peng, W., Sung, L.A.</p>
+
+<hr />
+<p>Genome sequence of the CHO K1 cell line established</p>
+
+<hr />
+<p>First patient-specific model of heart failure reported<br />
+Dr. McCulloch's Group</p>
+
+<hr />
+<p>A global clustering algorithm to identify Inc RNA in mammalian cells<br />
+Garmire, Garmire, Huang, Yao, Glass, Subramaniam, S.</p>
+
+<hr /></div>
+</div>
+
+<div class="year_container"><span class="year">2010</span>
+
+<div class="events_container">
+<p>UCSD Bioengineering Doctoral Program ranked first in nation by National Research Council</p>
+
+<hr />
+<p>NHLBI Training Grant on Integrative Bioengineering of Heart, Vessels and Blood</p>
+
+<hr />
+<p>Award of the NSF Science and Technology Center (the Science of Information) Life Sciences Subramaniam, S.</p>
+
+<hr />
+<p>Whole blood precision measurements of protease activity<br />
+Lefkowitz, R. B., Schmid-Schonbein, G. w., Heller, M. J.</p>
+
+<hr />
+<p>Development of non-contact electrodes for acquiring electrocardiography (ECG), electroencephalography (EEG), and other biopotentials<br />
+Chi, Y. M., Jung, T. P., Cauwenberghs, G.</p>
+
+<hr />
+<p>Erythrocyte tropomodulin isoforms with and without the N-terminal actin binding domain<br />
+Yao, W., Sung, L.A.</p>
+
+<hr />
+<p>Role of microRNA in flow-regulation of endothelial cell cycle and growth<br />
+Wang, K. C., Garmire, L. X., Young, A., Nguyen, P., Trinh, A., Subramaniam, S., Wang, N., Shyy, J. Y., Li, Y. S., Chien, S.</p>
+
+<hr />
+<p>Prediction of off-target effects of drugs using genome-scale models<br />
+Chang, Palsson, 6.0. , et al</p>
+
+<hr />
+<p>Blood pressure correlates with blood viscosity in diabetes type 1 children but not in normals<br />
+Salazar Vazquez, B. Y., Salazar Vazquez, M.A., lntaglietta, M., Cabrales, P.</p>
+
+<hr />
+<p>Reconsturction of host-pathogen models: TB inside the lung mactophage<br />
+Bordbar, A., Palsson, 6.0. , et al</p>
+
+<hr />
+<p>The mouse macrophage lipidome (the first complete lipidome of a mammalian cell)</p>
+
+<p>The LIPID MAPS<br />
+Consortium, Subramaniam, S.</p>
+
+<hr />
+<p>Stochastic hybrid modeling of intracellular calcium dynamics<br />
+Choi, Maurya, Tartakovsky, Subramaniam, S.</p>
+
+<hr /><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/cabrales.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Pedro Cabrales</p>
+
+<hr /> <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/lal.jpg" />
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Ratnesh Lal</p>
+</div>
+</div>
+</div>
+
+<div class="decade_container">
+<h3 class="decade">2000s</h3>
+
+<div class="year_container"><span class="year">2009</span>
+
+<div class="events_container">
+<p>Bilateral Symposium with National Yang Ming University</p>
+
+<hr />
+<p>Inauguration of Siebel Foundation Scholars</p>
+
+<hr /><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/Gert-3-2019.png" /> <!--<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/1979schmid_0.jpg" />-->
+<p>&nbsp;</p>
+
+<p>New Bioengineering Faculty Dr. Gert Cauwenberghs</p>
+
+<hr />
+<p>Challenges in computational systems biology<br />
+Maurya, Subramaniam, S.</p>
+
+<hr />
+<p>Development of first cardiac specific, injectable hydrogel for treating myocardial infarction<br />
+Dr. Karen Christman (PhD Students: Jennifer Singelyn, Jessica DeQuach)</p>
+
+<hr />
+<p>E-Tmod expressing horizontal cells in the retina experience greater stress-strain relationship than vertically oriented neurons<br />
+Yao, W., Sung, L. A.</p>
+
+<hr />
+<p>Integration of protein structures into genome-scale models</p>
+
+<hr />
+<p>Establishment of the transcriptional unit actritectyure in E.coli</p>
+
+<hr />
+<p>Bivariate microarray analysis<br />
+Hsiao, Subramaniam, S.</p>
+
+<hr />
+<p>Mechanisms of human insulin resistance (a hall mark study on deciphering responders and non-responders to TZD treatment of insulin resistance)<br />
+Sears, Hsiao, Hsiao, Yu, Courtney, Ofrecio, Chapman, Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2008</span>
+
+<div class="events_container"><img class="img-responsive" src="/sites/be.ucsd.edu/files/timeline/20.jpg" />
+<p>Inaugural Joan and Irwin Jacobs Professor of Systems Biology and Bioengineering<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>Community consensus model for yeast Nature biotech</p>
+
+<hr />
+<p>Inauguration of the Institute of Engineering in Medicine</p>
+
+<hr />
+<p>UCSD Chancellor's Excellence Award for Research<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>5th Bioengineering Chair<br />
+Dr. Shankar Subramaniam<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/shankar_2.jpg" /></p>
+
+<hr />
+<p>New BE Faculty<br />
+Dr. Adam Engler<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/engler.jpg" /></p>
+
+<hr />
+<p>First genome-scale reconstruction of a regolon<br />
+Cho,B. K, Palsson, B.O.</p>
+
+<hr />
+<p>Appointed Editor-in-Chief of the journal, Wiley Interdisciplinary Reviews in Systems Biology and Medicine<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>Reneweral of the NIH Glue Grant, LIPID MAPS<br />
+Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2007</span>
+
+<div class="events_container">
+<p>First Bioengineering Day (BE Day)</p>
+
+<hr />
+<p>New BE Faculty<br />
+Dr. Kun Zhang<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/zhang.jpg" /></p>
+
+<hr />
+<p>New BE Faculty<br />
+Dr. Shyni Varghese<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/varghese.jpg" /></p>
+
+<hr />
+<p>New BE Faculty<br />
+Dr. Karen Christman<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/christman.jpg" /></p>
+
+<hr />
+<p>Beneficial microvascular effects due to infusion of saturated CO solution<br />
+Hangai-Hoger, N., Tsai, A.G., Cabraels, P., Suematsu, M., Intaglietta, M.</p>
+
+<hr />
+<p>Genome-scale metabolic model of Mycobacterium tuberculosis<br />
+Jamshidi, N., Palsson, B.O.</p>
+
+<hr />
+<p>Diagnosic frequency ultrasound improves microcirculatory function in ischemia-reperfusion injury<br />
+Hightower, C.M., Intaglietta, M.</p>
+
+<hr />
+<p>Lowered blood viscosity limits resuscitation in hemorrhagic shock and not lowered blood oxygen carrying capacity<br />
+Cabrales, P., Tsai, A.G., Intaglietta, M.</p>
+
+<hr />
+<p>Genome-scale model of human metabolishm<br />
+Duarte, N.D., Palsson, B.O.</p>
+
+<hr />
+<p>The neuroinformatics workbench<br />
+Moene, Subramaniam,S, Bjaalie</p>
+
+<hr />
+<p>Systems Biology of macrophages<br />
+Maurya, Benner, Pradervand, Glass, Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2006</span>
+
+<div class="events_container">
+<p>First Bioengineering Quiz Bowl (BQB)</p>
+
+<hr />
+<p>The first publication on "how mammalian cells parse signals" and communicate: sigaling in macrophages<br />
+Pradervand, Maurya, Subramaniam, S.</p>
+
+<hr />
+<p>Review of the Glue Grant, "The alliance for Cellular Signaling"<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>Renewal of the NIH Bioinformatics Training Grant<br />
+Director Subramaniam, S.</p>
+
+<hr />
+<p>Elevated plasma viscosity increases perivascular nitric oxide concentration and microvascular perfusion<br />
+Tsai, A.G., Cabrales, P., Frangos, J.A., Buerk, D.G., Intaglietta, M.</p>
+
+<hr />
+<p>Genome-scale models used to growth couple metabolite production<br />
+Fong,S.S, Burgard, A.P., Herring, C.D., Knight, E.M., Blattner, F.R., Maranas, C.D., Palsson, B.O.</p>
+
+<hr />
+<p>Development of a novel extracellular matrix microarray for probing cellular differentiation</p>
+
+<hr />
+<p>Development of a flourescence resonance energy transfer (FRET) technique to visualize the spatio-temporal characteristics of mechanical activation of Src.<br />
+Wang. Y., Botvinick, E.L., Zhao, Y., Berns, M., Usami, S., Tsien, R.Y., Chien,S.</p>
+
+<hr />
+<p>Paradoxical hypertension following increased hematocrit and blood viscosity<br />
+Martini, J., Salazar, Vazquez, B.Y., Intaglietta, M.</p>
+
+<hr />
+<p>Establishment of the HHMI Interfaces Graduate Training Program<br />
+Cotter, Maer, Guda, Saunders, and Subramaniam</p>
+
+<hr />
+<p>Creation of the LIPDS MAPS proteome Database<br />
+Cotter, Maer, Guda, Saunders, Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2005</span>
+
+<div class="events_container">
+<p>4th Bioengineering Chair<br />
+Dr. Andrew McCulloch</p>
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/mcculloch%20%281%29.jpg" />
+<p>Bioengineering Research partnership on "Molecular Basis of Flow-induced Endothelial Reorganization"</p>
+
+<hr />
+<p>Publication of the Book,"Databasing the brain: from Data to Knowledge"<br />
+Eds: Koslow, Subramaniam,S.</p>
+
+<hr />
+<p>Publication of the Encyclopedia of Genetics, Genomics, Proteomics and Bioinformatics Vol 7,8<br />
+Ed. Subramaniam, S.</p>
+
+<hr />
+<p>Elevated plasma viscosity increases perivascular nitric oxide concentration and microvascular perfusion<br />
+Tsai, A.G., Cabrales, P., Frangos, J.A., Buerk, D.G., Intaglietta,M.</p>
+
+<hr />
+<p>Genome-scale models used to growth couple metabolite production<br />
+Fong,S.S., Burgard, A.P., Herring, C.D., Knight, E.M., Blattner, F.R., Maranas, C.D., Palsson, B.O.</p>
+
+<hr />
+<p>Multiple expression states discovered following adaptive evolution to hte same phenotype<br />
+Fong,S.S., Joyce, A.J., Palsson, B.O.</p>
+
+<hr />
+<p>Paradoxical hypotension following increased hematocrit and blood viscosity<br />
+Martini, J., Salazar Vazquez, B.Y., Intaglietta, M.</p>
+
+<hr />
+<p>Development of a flourenscence resonance energy transfer (FRET) technique to vistualize the spatio-temporal characteristics of mechanical activation of Src.<br />
+Wang Y., Botvinik, E.L., Zhao, Y., Berns, M., Usami, S., Tsien, R.Y., Chien. S,</p>
+
+<hr />
+<p>Development of a novel extracellular matrix microarray for probing cellular differentiation<br />
+Flaim, C.J., Chien, S., Bhatia, S.</p>
+
+<hr />
+<p>The first comprehensive classification of lipids<br />
+Fahy, Subramaniam, and the LIPIDMAPS Consortium</p>
+
+<hr />
+<p>pTARGET - a new method of prediciting protein subcelluar localization in eukaryotes<br />
+Guda, Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2004</span>
+
+<div class="events_container">
+<p>Terminal lymphatics: the tissue "lethal corner"<br />
+Hangai-Hoger,N., Cabrales, P., Briceno, J-C, Tsai, A.G., Intaglietta,M.</p>
+
+<hr />
+<p>Red Blood cell storage induces microvascular dysfunction in transfusion<br />
+Tsai, A.G., Cabrales, P., Intaglietta, M.</p>
+
+<hr />
+<p>Genome-scale models predict the outcomes of hith-throughput growth screens<br />
+Covert, M.W., Knight, E.M., Reed, J.L., Herrgard, M.J., Palsson, B.O.</p>
+
+<hr />
+<p>Establishment of first mitochondrial protein sequence database, mitoproteome<br />
+Cotter, Guda, Fahy, Subaramaniam, S.</p>
+
+<hr />
+<p>MITOPRED: a genome scale method for prediction of nucleus-encoded mitochondrial proteins<br />
+Guda, Fahy, Subramaniam, S.</p>
+
+<hr />
+<p>Decoding cilia function: defining specialized genes required for compartmentalized cilia biogenesis<br />
+Avidor-Reiss, Maer, Koundakjian, Polyanovsky, Keil, Subramaniam, S, Zuker.</p>
+
+<hr />
+<p>Variance-modeled posterior inference of microarray data<br />
+Hsiao, Worrall, Olefsky, Subramaniam, S.</p>
+
+<hr />
+<p>Computational modeling reveals interplay between components of a GTPase-cycle module<br />
+Bornheimer, Maurya, Farquhar, Subramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2003</span>
+
+<div class="events_container">
+<p>New Biogengineering Faculty<br />
+Dr. Gabriel Silva<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/silva.jpg" /></p>
+
+<hr />
+<p>New Biogengineering Faculty<br />
+Dr. John Watson<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/watson.jpg" /></p>
+
+<hr />
+<p>New Biogengineering Faculty<br />
+Dr. Trey Ideker<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/ideker.jpg" /></p>
+
+<hr />
+<p>Multi-institutional NIH glue grant,"The LIPIDMAPS"<br />
+Subaramaniam, S</p>
+
+<hr />
+<p>Completion of the Powell-Focht Bioengineering Hall</p>
+
+<hr />
+<p>Measurement of oxygen consumption by microvessel<br />
+Tsai, A.G., Friesenecker,B., Buerk, D.G., Johnson,P.C., Intaglietta,M.</p>
+
+<hr />
+<p>Development of PEG-hemoglobin as an oxgen carrying that targets anoxic tissue<br />
+Tsai, A.G., Vandegriff,K.D.,</p>
+
+<hr />
+<p>Mystries solved: Why actin protofilaments are 37nm long, and why erythrocyte membrate skeletal networks are hexagonal<br />
+Sung,L.A., Vera, C.</p>
+
+<hr />
+<p>First erythrocyte tropomodulin knock-out mouse model created and characterized<br />
+Chu,X., Chen, J., Vera, C., Sung,K.L.P., Sung, L.A.</p>
+
+<hr />
+<p>The first 3D mechanical model of the junctional complex in the erythrocyte membrate skeletal network<br />
+Sung,L.A., Vera,C.</p>
+
+<hr />
+<p>Genome-scale model of yeast metabolism<br />
+Famili, I., Forster, J., Nielsen, J., Palsson, B.O.</p>
+
+<hr />
+<p>Moleduclar and mechanical bases of focal lipid accumulation in arterial wall<br />
+Chien,S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2002</span>
+
+<div class="events_container">
+<p>3rd Bioengineering Chair<br />
+Dr Shu Chien<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1999chien_0.jpg" /></p>
+
+<hr />
+<p>New Biogengineering Faculty<br />
+Dr. Jeff Hasty<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/hasty.jpg" /></p>
+
+<hr />
+<p>New Biogengineering Faculty<br />
+Dr. Xiaohua Huang<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/huang.jpg" /></p>
+
+<hr />
+<p>Incorporation of SNPs into whole cell models<br />
+Jamshidi, N., Wiback, S.J., Palsson, B.O.</p>
+
+<hr />
+<p>First match of gene activity with biomechanial functions<br />
+Li,Z.J., Huang, W., Jiang, Z.L., Gregersen, H., Fung, Y.C.</p>
+
+<hr />
+<p>Genome-scale models predict the outcome of adaptive evolution<br />
+Ibarra, R.U., Edwards, J.S., Palsson, B.O.</p>
+
+<hr />
+<p>The Alliance for Cellular signaling: A nature highlight publication researchers in the AfCS<br />
+Subramaniam, S.</p>
+
+<hr />
+<p>The Molecular Pages Database<br />
+Li,Ning, Hedley, Saunders, Chen, Tindill, Hannay, Subaramaniam, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2001</span>
+
+<div class="events_container">
+<p>NIH Program Project Grant: Biomechanics<br />
+Dr.Schmid-Schoenbein</p>
+
+<hr />
+<p>Von Liebig Center for Entrepreneurism and Techonology Advancement</p>
+
+<hr />
+<p>New Bioengineering Faculty<br />
+Dr. Michael Heller<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/heller.jpg" /></p>
+
+<hr />
+<p>Incorporation of transcriptional regulation into genome scale models<br />
+Covert, M.W., Palsson, B.O.</p>
+
+<hr />
+<p>Demonstration of a second valve system in lymphatics<br />
+Trzewik, J., Artmann, G.M., DeLano, F.A., Schmid-Schonbein,G.W.</p>
+
+<hr />
+<p>Growth predictions of genome-scale models validated<br />
+Edwards, J.S., Ibrarra, R.U., Palsson, B.O.,</p>
+
+<hr />
+<p>Award of the first NIH Bioinformatics Graduate Training Grant<br />
+Dr.Shankar Subramaniam</p>
+
+<hr />
+<p>Multi-institutional NIH glue grant, "The Alliance for Cellular Signaling"<br />
+Dr.Shankar Subramaniam</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">2000</span>
+
+<div class="events_container">
+<p>Bioengineering Research Partnership on "Molecular Basis of FLow-induced Endothelial Reorganization"</p>
+
+<hr />
+<p>Bioengineering Research Partnership for the development of blood substitues<br />
+Dr. Marcos Intaglietta</p>
+
+<hr />
+<p>Creation of the UCSD Bioinformatics and Systems Biology Graduate Program<br />
+Founding Director<br />
+Dr. Shankar Subramaniam</p>
+
+<hr />
+<p>A complex formed by erythrocyte tropomodulin and rod-like tropomyosin 5 or 5b may function as a "molecular ruler"<br />
+Sung, L.A., et al.</p>
+
+<hr />
+<p>First demonstration of organ failure by leaking pancreatic digestive enzymes<br />
+Misuoka, H., Kistler, E.B., Schmid-Schonbein, G.W.</p>
+
+<hr />
+<p>Effect of red blood cell aggregation onn venular hemodynamics<br />
+Bishop, J.J., Popel, A.S., Johnson, P.C., Kim, S., Intaglietta, M.</p>
+
+<hr />
+<p>Large molecular dimension hemoglobin oxygen carriers lower hypertensive effect<br />
+Sakai, H., Tsuchida, E., Intaglietta,M.</p>
+
+<hr />
+<p>Genome-scale metabolic model established for E. coli<br />
+Edwards, J.S., Palsson, B.O.</p>
+
+<hr />
+<p>Creation of the NIH BISTI White Paper, that led to the start of large scale NIH funding of biomedical informatics: The NIH Director's Advisory Committee on Biomedical Informatics<br />
+Dr. Shankar Subramanaiam</p>
+
+<hr />
+<p>A novel microarray Strategy for detecting genes and pathways in microbes with unsequenced genomes<br />
+Ramarathnam, Subramaniam, S.</p>
+</div>
+</div>
+</div>
+
+<div class="decade_container">
+<h3 class="decade">1990s</h3>
+
+<div class="year_container"><span class="year">1999</span>
+
+<div class="events_container">
+<p>Window Chamber analysis and ischemic tissue flaps in plastic surgery<br />
+Erni, D., Intaglietta, M.</p>
+
+<hr />
+<p>First genome-scale metabolic model established for Hamophilus influenzae<br />
+Edwards,J.s., Palsson, B.O.</p>
+
+<hr />
+<p>2nd Engineering chair<br />
+Dr. David Gough<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1976gough-crop-u5012.jpg" /></p>
+
+<hr />
+<p>New Bioengineering Faculty<br />
+Dr. Shankar Subramaniam<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/subramaniam.jpg" /></p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1998</span>
+
+<div class="events_container">
+<p>Whitaker Foundation Leadership Award<br />
+Chien, S<br />
+Powell Foundation Award</p>
+
+<hr />
+<p>Planning of Construction of Powell-Focht Bioengineering Hall <img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1998pfbh.jpg" /></p>
+
+<hr />
+<p>The extreme pathway structure of integrated networks established<br />
+Schilling, C.H., Palsson, B.O.</p>
+
+<hr />
+<p>Novel Pseudo-pods described on hematopioetic stem cells<br />
+Francis, K., Holloway, W., Ramakrishna, R., Palsson, B.O.</p>
+
+<hr />
+<p>The Beneficial effect of high plasma and blood viscosity<br />
+Tsai, A.G., Cabrales P., Martini, J., Intaglietta, M</p>
+
+<hr />
+<p>Measurement of oxygen consumption by microvessels<br />
+Tsai, A.G., Friesenecker,B, Buerk, D.G., Intaglietta, M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1997</span>
+
+<div class="events_container">
+<p>Annual Meeting of Biomedical Engineering Society<br />
+Chien,S., Skalak, R.<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1997bmes_0.jpg" /></p>
+
+<hr />
+<p>Collaborative program: Development of artificial blood Dept. of Polymer Chemistry Waseda University, Tokyo, Japan, and Dept. of Bioengineering<br />
+Dr. Eishun Tsuchida, Dr. Marcos Intaglietta</p>
+
+<hr />
+<p>Role of integrins in cellular responses to mechanical stress and adhesion<br />
+Shyy, J.Y.J., Chien, S.</p>
+
+<hr />
+<p>Microvascular responses to hemodilution with Hb vesicles as red blood cell substitues<br />
+Sakai, H., Tsai, A.G., Hara, H. Takeoka, S., Tsuchida, E., Intaglietta, M.</p>
+
+<hr />
+<p>First demonstration of fluid shear stress response in immune cells<br />
+Schmid-Schonbein, G.W.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1996</span>
+
+<div class="events_container">
+<p>Development of first biomechanical model of myogenic response in arterioles<br />
+Lee, S-Y, Schmid-Schonbein, G.W.</p>
+
+<hr />
+<p>Discovery of functional capillary density as determinant of survival, and not tissue oxygen tension in hemorrhage<br />
+Kerger,H., Saltzman, D.J., Messmer, K., Tsai, A.G., Friesenecker,B., Cabrales, P., Intaglietta,M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1995</span>
+
+<div class="events_container">
+<p>New Bioengineering Faculty<br />
+Dr. Bernhard Palsson<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/palsson.jpg" /></p>
+
+<hr />
+<p>Studies of hemoglobin based blood substitues in the microcirculation<br />
+Tsai, A.G., Cabrales, P., Winslow, R.M., Intaglietta, M</p>
+
+<hr />
+<p>Demonstration of pseudopod formation in capillary endothelium<br />
+Lee, J., Schmid-Schonbein, G.W.</p>
+
+<hr />
+<p>Demonstration of the induction of inflammatory gene expression by a shear responsive cis elemenet<br />
+Shyy, Y.J., Lin, M.C., Han, J., Lu, Y., Petrime, M., Chien, S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1994</span>
+
+<div class="events_container">
+<p>Whitaker Foundation Development Award<br />
+Dr.Shu Chien</p>
+
+<hr />
+<p>First Bioengineering Department in the UC System</p>
+
+<hr />
+<p>Founding Bioengineering Chair<br />
+Dr. Shu Chien<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1999chien_0.jpg" /></p>
+
+<hr />
+<p>New Bioengineering Faculty<br />
+Dr. L. Amy Sung<br />
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/sung_0.jpg" /></p>
+
+<hr />
+<p>Establishment of "Molecular Biology Common Facility" in EBUI with the support of the Whitaker Foundation Development Award to Bioengineering<br />
+Founding Director: L. Amy Sung<br />
+The first female tenured or tenure-tracked faculty in the department.</p>
+
+<hr />
+<p>Direct Visualization of oxygen free radicals in vivo<br />
+Suematsu, M. Tamatami, T., DeLano, F.A., Miyasaka, M., Schmid-Schonbein, G.W.</p>
+
+<hr />
+<p>Erythrocyte tropomodulin binds to the N-terminal end of the rod-like tropomyosin 5 isoform<br />
+Sung, L.A., Lin, J.J. C.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1993</span>
+
+<div class="events_container">
+<p>Whitaker Foundation Development Award and Industrial Liaison Program</p>
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/untitled-9.png" />
+<hr />
+<p>Remodeling of the constitutive equation of a living tissue under stress<br />
+Fung, Y.C., Liu, S.Q., Zhou, J.B.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1992</span>
+
+<div class="events_container">
+<p>Molecular cloning of erythrocyte tropomodulin: The first in a large family<br />
+Sung, L.A., Fowler, V.M., Lambert, K., Sussman, M.A., Karr, D., Chien,S</p>
+
+<hr /><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/sah_0.jpg" />
+<p>New Faculty<br />
+Dr. Robert Sah</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1991</span>
+
+<div class="events_container">
+<p>Demonstration of leukocyte obstruction of capillaries and no-reflow in stroke<br />
+Del Zoppo, G.J., Schmid-Schonbein, G.W.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1990</span>
+
+<div class="events_container">
+<p>NIH Program Project Grant: "Biophysics of Blood Cells, Blood Vessels, and Microcirculation"<br />
+Chien,S</p>
+
+<hr />
+<p>First World Congress of Biomechanics<br />
+Chien,S, Skalak, R.</p>
+
+<hr />
+<p>Hyperosmotic fluid efficay in treating hemorrhage<br />
+Mazoni, M.C., Borgstrom, P.m Arfors, K-E, Intaglietta, M.</p>
+
+<hr />
+<p>First Demonstration of residual strain in the heart<br />
+Omens, J.H., Fung, Y.C.</p>
+
+<hr />
+<p>Molecular cloning of human erythrocyte membrane skeletal protein 4.2<br />
+Sung, L.A, Chien, S, Chang, L.S., et al.</p>
+</div>
+</div>
+</div>
+
+<div class="decade_container">
+<h3 class="decade">1980s</h3>
+
+<div class="year_container"><span class="year">1989</span>
+
+<div class="events_container">
+<p>Tissue oxygenation by discrete sources(single file RBC flow)<br />
+Tsai, A.G., Intaglietta, M.</p>
+&nbsp;
+
+<p>First application of non-harmonic analysis of semi-periodic cardiovascular phenomena: the Prony Spectral Line Estimator<br />
+Buckhard, P.M., Meyer, J-U, Secomb, T.W., Breit, G.A., Intaglietta,M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1988</span>
+
+<div class="events_container">
+<p>First Graduate Course on Molecular and Cellular Bioengineering<br />
+Chien S, Sung,K.L., Sung, L,A.</p>
+
+<hr />
+<p>First theory of blood flow in skeletal msucle based on realistic topology and mechanical properties<br />
+Schmid-Schonbein, G.W.</p>
+
+<hr />
+<p>Demonstration of residual stress in arteries<br />
+Liu, S.Q., Fung, Y.C.</p>
+
+<hr />
+<p>Small value hypertonic resuscitation: microvasdcular consequences and role of endothelial swelling<br />
+mazzoni, M.C., Arfors, K-E, Easterbrook, M.H., Hargens, A.R., Intaglietta,M.</p>
+
+<hr />
+<p>New Bioengineering Faculty<br />
+Dr. Shu Chien</p>
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1999chien_0.jpg" /></div>
+</div>
+
+<div class="year_container"><span class="year">1987</span>
+
+<div class="events_container">
+<p>New Bioengineering Faculty<br />
+Dr. Andrew McCulloch</p>
+<img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/mcculloch_0.jpg" /></div>
+</div>
+
+<div class="year_container"><span class="year">1986</span>
+
+<div class="events_container">
+<p>First Bioengineering Graduate Symposium</p>
+
+<hr />
+<p>Physics and physiology of hemodilution at the microvascular and systemic level from in vivo studies<br />
+Messmer,K., Mirhashemi, S., Bertuglia, S., Tsai, A.G., Cabrales, P., Intaglietta,M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1985</span>
+
+<div class="events_container">
+<p>First full reconstruction of the microvascular network in skeletal muscle<br />
+Engelson, E. T., Skalak, T. C. , Schmid-Schönbein, G. W.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1984</span>
+
+<div class="events_container">
+<p>Demonstration for lymph formation by vasomotion<br />
+Skalak, T.C. Schmid-Schoenbein, G.W., Zweifach, B. W.</p>
+
+<hr />
+<p>Demonstration of leukocyte capillary plugging in the heart<br />
+Engler, R.L., Schmid-Schonbein, G.W.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1983</span>
+
+<div class="events_container">
+<p>Vasomotion as a factor in peripheral vascular resistance<br />
+Funk,W., Endrich, B., Messmer, K., Gross,J. F. , Bertuglia, S., Intaglietta, M.</p>
+
+<hr />
+<p>First Time-dimensional stress distribution in arteries<br />
+Chuong, C.J., Fung, Y.C.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1982</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/be.ucsd.edu/files/chronology/1982mlrudee_0.jpg" />
+<p>Founding Dean of the Jacobs School Engineering<br />
+Dr. M. Lea Rudee</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1981</span>
+
+<div class="events_container">
+<p>First analysis of passive viscoelastic properties of human leukocytes<br />
+Schmid-Schönbein, G.W., Sung, K-L P., Tözeren,H., Chien,s, Skalak,R.</p>
+
+<hr />
+<p>First precise morphometic analysis of leukocytes<br />
+Schmid-Schönbein, G.W., Shih, Y.Y., Chien,S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1980</span>
+
+<div class="events_container">
+<p>Tucson-San Diego Program Project:Quantative studies of microvascular function<br />
+Dr. Paul C. Johnson and Dr. Marcos Intaglietta</p>
+
+<hr />Discovery of microvascular pacemakers driving spontaneous time dependent activity of the microcirculation<br />
+Meyer, J-U, Bertuglia,S, Borgstrom, P, Xiu, RJ, Gross, JF, Schmidt, JA, Intaglietta,M
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+<div class="decade_container">
+<h3 class="decade">1970s</h3>
+
+<div class="year_container"><span class="year">1979</span>
+
+<div class="events_container">
+<p>Effects of perfluorocarbon as Blood Substitutes in the Microcirculation<br />
+Endrich, B. , Greenburg, A.S., Cabrales,P., Briceno, J.C., Chavez-Negrete,A., Intaglietta,M</p>
+
+<hr />First Consitutive Equation for Lung Tissue<br />
+Vawter,D.L., Fung, Y.C., West, J.B.
+<hr /> Perflurocarbons as Gas Transporters for O2,NO, CO, and Volatile Anesthetics<br />
+Cabrales,P., Salazar Vazquez, B.Y., Chavez-Negrete, A., Intaglietta,M
+<p>&nbsp;</p>
+
+<hr />
+<p>New Bioengineering Faculty<br />
+Dr. Geert Schmid-Schönbein</p>
+<img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1979schmid.jpg" /></div>
+</div>
+
+<div class="year_container"><span class="year">1977</span>
+
+<div class="events_container">
+<p>Window Chamber Technique for In Vivo Hemodynamic Analysis of Tumor Microcirculation<br />
+Endrich, B. , Papenfuss,H.D, Gross, J.F. Reihold,H.D., Intaglietta,M.</p>
+
+<hr />Biomechanics of Active Smooth Muscle<br />
+Price, J.M. , Patitucci, P., Fung, Y.C.
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1976</span>
+
+<div class="events_container">
+<p>Biomechanics of an Exact microvascular Network<br />
+Lipowsky,H.h., Zweifach,B.W.</p>
+
+<hr /><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1976gough-crop-u5012.jpg" />
+<p>New Bioengineering Faculty<br />
+Dr.David Gough</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1974</span>
+
+<div class="events_container">Capillary Blood flow and Pressure Measurements in Humans<br />
+Butti,P., Mahler, F., Bollinger,A., Anliker, M., Fagrell,B. , Fronek,A. Intaglietta,M.
+<hr /><br />
+Mechanical Properties of the Skin<br />
+Lanir,Y. Fung, Y.C.</div>
+</div>
+
+<div class="year_container"><span class="year">1973</span>
+
+<div class="events_container">
+<p>Developed at UC San Diego Bioengineering, 200 laboratories supplied worldwide, including instrumentation for Physiology and Medicine Inc., commercializes on-line dynamic microscopic measurement of flow, geometry and pressure in the microcirculation the USSR<br />
+Intaglietta,M.</p>
+
+<hr /><br />
+Mechanical Properties of the Heart Muscle<br />
+Pinto, J.G. , Fung, Y.C.
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1972</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1972book.jpg" />
+<hr />
+<p>Renal Perfusion and Pulmonary Ventilation Measurements by Video Fluroscopy<br />
+Silverman,N.R., Intaglietta,M.</p>
+
+<hr /> First Precise Measurements of the Erythrocyte Geometry<br />
+Evans,E., Fung, Y.C.
+<p>&nbsp;</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1971</span>
+
+<div class="events_container">
+<p>First NIH Training Grant with Department of Surgery</p>
+
+<hr />
+<p>Mechanical Properties of Mammalian Ureteral</p>
+
+<p>Yin, F.C.P., Fung, Y.C.</p>
+
+<hr />
+<p>Pediatric, Automated Heart Lung Machine for Infants</p>
+
+<p>Turnia,M., Brauwald, N.S., Intaglietta,M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1970</span>
+
+<div class="events_container">Instrumentation for On-Line Pressure and Flow Measurements in the Microcirculation Intaglietta,M.</div>
+</div>
+</div>
+
+<div class="decade_container">
+<h3 class="decade">1960s</h3>
+
+<div class="year_container"><span class="year">1969</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1969.jpg" />
+<p>Bioengineering Faculty and Family<br />
+SheetFlow Theory in Pulmonary Circulation<br />
+Fung, Y.C., Tong,P., Sobin,S. S.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1968</span>
+
+<div class="events_container">
+<p><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1968fungslaw1.png" /></p>
+
+<p><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1968fungslaw2.png" /></p>
+
+<p>Exponential Law for Elastic Response or Soft Living Tissue</p>
+
+<hr />
+<p>Fung, Y.C.</p>
+
+<p>Mechanics of fluid exchange in single, in-vivo blood capillaries</p>
+
+<p>Zweifach, B.W., Intaglietta, M.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1967</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1967rbc.jpg" />
+<p><span>Theory of the Sphering of Red Blood Cell</span></p>
+
+<p>Fung, Y.C., Tong, P.</p>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1966</span>
+
+<div class="events_container">
+<p><span>Bioengineering is born at UC San Diego within the Department of Aerospace and Mechanical Engineering (AMES)</span></p>
+
+<p><span><u>Founding Faculty</u>.</span></p>
+
+<div>
+<p>Dr Yuan-Cheng Fung</p>
+<img class="img-responsive" src="/sites/www.be.ucsd.edu/files/1966fung.jpg" /></div>
+
+<div>
+<p>Dr Benjamin Zweifach</p>
+<img class="img-responsive" src="/sites/www.be.ucsd.edu/files/1966zweifach.jpg" /></div>
+
+<div>
+<p>Dr. Marcos Intaglietta</p>
+<img class="img-responsive" src="/sites/www.be.ucsd.edu/files/1966intaglietta.jpg" /></div>
+</div>
+</div>
+
+<div class="year_container"><span class="year">1965</span>
+
+<div class="events_container"><img alt="" class="img-responsive" src="/sites/www.be.ucsd.edu/files/1965%20scripps.jpg" />
+<p>Dr. Marcos Intaglietta visits the laboratory of Professor Peer Scholander at Scripps Oceanographic and organizes the subsequent visits of Dr. Benjamin W. Zweifach and finally Dr. Y. C. Fung.</p>
+
+<p>The group meets with Professor S. Penner who proposes forming a multidisciplinary group in Bioengineering / Biomechanics in combination with the School of Medicine.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
